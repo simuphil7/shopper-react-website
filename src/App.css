@@ -1,0 +1,31 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-inline-start: 1em;
+  margin-inline-end: 1em;
+  margin-top: 0em;
+  margin-bottom: 2em;
+}
+.fpro {
+  margin-top: 0em;
+  margin-left: 0em;
+  background-color: #c2293a;
+  color: #fafafa;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 26px;
+}
+.cover-pic-div {
+  width: inherit;
+}
+.cover-pic {
+  width: 100%;
+  object-fit: cover;
+  height: 356px;
+  object-position: 100% 0;
+}
+.fprohr {
+  border: 0.5px solid #fafafa;
+}

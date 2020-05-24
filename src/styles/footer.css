@@ -1,0 +1,21 @@
+@media (min-width: 600px) {
+  .footer {
+    position: relative;
+
+    margin-bottom: 0;
+    padding: 0.6em;
+    overflow: hidden;
+    background-color: #b3001b;
+    color: #fffafa;
+    font-size: 80%;
+    width: 100%;
+    z-index: 99999;
+  }
+  .footer p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+    vertical-align: middle;
+  }
+}

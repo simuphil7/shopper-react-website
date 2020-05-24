@@ -1,0 +1,57 @@
+@media (min-width: 600px) {
+  .header-div {
+    position: fixed;
+    top: 0;
+  }
+  .product-page {
+    margin-top: 5em;
+  }
+  .card-content-div {
+    display: flex;
+    padding: 2em;
+    background-color: #d15159;
+    border-radius: 5px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 130px;
+    flex-wrap: wrap;
+  }
+  .pro-img {
+    flex: 1;
+    border: #fafafa solid 15px;
+    flex-shrink: 0;
+    min-width: 452px;
+    min-height: 441px;
+    max-height: 441px;
+    max-width: 452px;
+  }
+  .pro-pic {
+    width: 100%;
+    height: 100%;
+  }
+  .info-div {
+    flex: 2;
+    margin-left: 2em;
+    color: #fafafa;
+  }
+  .action-buttons {
+    margin-inline-start: 1em;
+    display: flex;
+  }
+  .act-botton {
+    min-width: 84px;
+    border-style: none;
+    color: #fafafa;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: #255c99;
+  }
+  .act-child {
+    flex: 1;
+  }
+  .description {
+    text-align: justify;
+    font-weight: 600;
+    font-size: large;
+  }
+}

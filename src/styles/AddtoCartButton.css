@@ -1,0 +1,19 @@
+.cart-butt {
+  min-width: 84px;
+  border-style: none;
+  min-height: 30px;
+  color: #fafafa;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 4px;
+}
+
+.cart-butt:hover {
+  cursor: pointer;
+}
+.add {
+  background-color: green;
+}
+.remove {
+  background-color: #b3001b;
+}

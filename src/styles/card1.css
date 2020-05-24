@@ -1,0 +1,243 @@
+.card {
+  max-width: 220px;
+  min-width: 220px;
+  border: 2px;
+  height: 200px;
+  border-color: #333333;
+  border-radius: 3%;
+  background-color: #fafafa;
+  color: #fafafa;
+  flex: 1 1;
+  padding: 0;
+  margin-top: 2em;
+  margin-left: 1em;
+  margin-bottom: 2em;
+  animation-name: flipp;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  z-index: 2;
+}
+.title-p {
+  padding-left: 1em;
+  padding-top: 8px;
+}
+.card:hover {
+  transform: scale(1.02);
+}
+@keyframes unblur {
+  from {
+    filter: blur(7px);
+  }
+  to {
+    filter: blur(0px);
+  }
+}
+.tile-pic {
+  position: relative;
+  width: 100%;
+  border-radius: 3%;
+  z-index: 5;
+  animation: unblur;
+  filter: blur(0px);
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+.flip-title {
+  font-size: large;
+  font-weight: 600;
+  color: #fafafa;
+  margin-left: -25px;
+}
+.flip-title:hover {
+  cursor: default;
+}
+.flip-title a {
+  color: #faa613;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+@keyframes blur {
+  from {
+    filter: blur(0px);
+  }
+  to {
+    filter: blur(7px);
+  }
+}
+.flip-tile-pic {
+  position: relative;
+  width: 100%;
+  border-radius: 3%;
+  z-index: 5;
+  animation: blur;
+  filter: blur(7px);
+
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes flipp {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.flip-title-div {
+  position: relative;
+  top: -175px;
+  margin-left: 2.6em;
+  z-index: 6;
+}
+.flip-div {
+  color: #333333;
+  width: fit-content;
+}
+.title-div {
+  position: relative;
+  margin-top: -3em;
+  height: fit-content;
+  color: gold;
+  font-size: large;
+  font-weight: 600;
+  z-index: 5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.actions-div {
+  display: flex;
+  margin-top: 1em;
+  padding-bottom: 1em;
+  margin-inline-start: 0.9em;
+  margin-inline-end: 0.5em;
+}
+.heart-div {
+  flex: 1;
+}
+.heart-div1 {
+  position: relative;
+
+  z-index: 6;
+  top: -200px;
+  margin-left: 1em;
+}
+.heart-div2 {
+  position: relative;
+
+  z-index: 6;
+  top: -334px;
+  margin-left: 1em;
+}
+.title-pad {
+  font-size: larger;
+  z-index: 6;
+}
+.title-pad:hover {
+  cursor: pointer;
+}
+.cross {
+  position: relative;
+  float: right;
+  color: #fafafa;
+  font-weight: 800;
+  font-size: larger;
+  margin-top: -221px;
+  z-index: 6;
+  margin-right: 20px;
+}
+.cross:hover {
+  color: #b3001b;
+  cursor: pointer;
+}
+.act-button1 {
+  position: relative;
+  min-width: 84px;
+  border-style: none;
+  min-height: 30px;
+  border-radius: 5px;
+  color: #fafafa;
+  padding: 4px;
+  background-color: #255c99;
+  z-index: 6;
+  top: -129px;
+  margin-left: 1em;
+}
+.act-button2:focus {
+  outline: none;
+}
+.act-button2 {
+  position: relative;
+  z-index: 7;
+  top: -161px;
+  margin-left: 7em;
+}
+.blank-div {
+  flex: 1;
+}
+.button-div {
+  flex: 1;
+}
+.button-div:hover {
+  cursor: pointer;
+}
+
+.title {
+  font-size: large;
+  font-weight: bolder;
+  color: #fafafa;
+  line-height: 0.5;
+  text-decoration: none;
+}
+.info-list-div {
+  display: flex;
+
+  margin-top: 0;
+  margin-inline-end: 0.5em;
+  margin-inline-start: 0.5em;
+}
+
+.info-list-div ul {
+  list-style: none;
+  padding-left: 0;
+}
+.title-list-div {
+  float: left;
+  flex: 1;
+  font-weight: bold;
+}
+
+.value-list-div {
+  float: right;
+  flex: 1;
+  text-align: right;
+}
+.peek-img {
+  width: fit-content;
+}
+.peek-img {
+  cursor: pointer;
+}
+.content {
+  line-height: 0.5;
+}
+.cart-butt {
+  min-width: 84px;
+  border-style: none;
+  color: #fafafa;
+  padding: 4px;
+}
+.title-link {
+  text-decoration: none;
+}
+.cart-butt:hover {
+  cursor: pointer;
+}
+.add {
+  background-color: green;
+}
+.remove {
+  background-color: red;
+}

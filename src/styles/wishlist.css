@@ -1,0 +1,76 @@
+@media (min-width: 600px) {
+  .header-div {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+  }
+
+  .wish-page-div {
+    margin-top: 5em;
+    display: flex;
+  }
+  @keyframes twistheart {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  .wish-ed {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .blank-wish {
+    flex: 3;
+    border-left-style: solid;
+    border-color: #b3001b;
+    border-width: 3px;
+    margin-top: 12px;
+  }
+  .blank-wish h2 {
+    color: rgb(26, 132, 153);
+  }
+  .card-lis {
+    align-items: center;
+    display: flex;
+
+    flex-wrap: wrap;
+    margin-top: -66px;
+    padding: 3em;
+    margin-left: 20px;
+  }
+  .card-lis .card {
+    margin-top: 49px;
+  }
+
+  .blank-wish h2 {
+    margin-left: 2em;
+
+    margin-bottom: 10px;
+  }
+  .wishes {
+    flex: 7;
+  }
+
+  .empty-wish {
+    margin-top: 55px;
+    background-color: #ffc857;
+  }
+  .empty-wish-img {
+    position: absolute;
+    left: 25%;
+    flex: 5;
+    animation: twistheart 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+  }
+  .tab-title {
+    margin-top: 1em;
+    font-size: x-large;
+  }
+  .tab-buttons {
+    margin-bottom: 1em;
+  }
+}

@@ -1,0 +1,17 @@
+.wish-butt {
+  min-width: 84px;
+  border-style: none;
+  color: #fafafa;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.wish-butt:hover {
+  cursor: pointer;
+}
+.wish {
+  background-color: green;
+}
+.unwish {
+  background-color: #b3001b;
+}

@@ -1,0 +1,131 @@
+@media (min-width: 600px) {
+  .header-div {
+    position: fixed;
+    top: 0;
+  }
+  .cart-page {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cart-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    flex: 6;
+    background-color: #fafafa;
+  }
+  .bill-div {
+    flex: 3;
+    display: flex;
+    margin-top: 5em;
+    flex-direction: column;
+    border-left-style: solid;
+    border-left-color: #b3001b;
+  }
+  .bill-head {
+    display: flex;
+    flex-direction: row;
+    margin-inline-end: 2em;
+  }
+  .bill-img-div {
+    flex: 1;
+  }
+  .bill-img {
+    width: 150%;
+  }
+  .bill-head-title {
+    text-align: center;
+    color: #0b5563;
+    flex: 7;
+    font-size: xxx-large;
+  }
+  .buy-butt {
+    position: relative;
+    min-width: 84px;
+    border-style: none;
+    min-height: 30px;
+    border-radius: 5px;
+    color: #fafafa;
+    padding: 4px;
+    background-color: #255c99;
+    z-index: 6;
+    margin-left: 12em;
+  }
+  .billItem {
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: 1em;
+    margin-inline-end: 1em;
+    color: #0b5563;
+  }
+  .bill-title {
+    flex: 4;
+    color: #0b5563;
+  }
+  .bill-price {
+    font-weight: normal;
+  }
+  .rule {
+    width: 90%;
+  }
+  .total-div {
+    display: flex;
+    margin-inline-start: 1em;
+    color: #0b5563;
+
+    margin-inline-end: 1em;
+  }
+  .total-title {
+    flex: 4;
+  }
+  Link {
+    text-decoration: none;
+  }
+  @keyframes runn {
+    from {
+      left: -50%;
+    }
+    to {
+      left: 20%;
+    }
+  }
+  @keyframes runfirst {
+    from {
+      left: 20%;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  @keyframes twist {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+  .empty-div {
+    position: relative;
+    overflow: hidden;
+    height: 647px;
+    margin-top: 60px;
+  }
+  .iniCart {
+    position: absolute;
+    left: 20%;
+    top: 7px;
+    animation: twist 2s;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    /* animation: runfirst 2s linear 0s;
+  animation-iteration-count: 1; */
+  }
+  .firstCart {
+    position: absolute;
+    left: -600px;
+    top: 7px;
+    /* animation: runn 1s linear 1s;
+animation-iteration-count: 1; */
+  }
+}

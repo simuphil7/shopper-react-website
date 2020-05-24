@@ -1,0 +1,40 @@
+.peek-img {
+  text-align: center;
+}
+.title {
+  text-align: center;
+}
+
+.heart:hover {
+  cursor: pointer;
+}
+
+.heart {
+  margin-top: 6px;
+  position: relative;
+  background-color: #fafafa;
+  height: 10px;
+  transform: rotate(-45deg);
+  width: 10px;
+}
+
+.heart:after {
+  content: "";
+  background-color: #fafafa;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  top: -7px;
+  left: 0px;
+}
+.heart:before {
+  content: "";
+  background-color: #fafafa;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  top: 0px;
+  right: -7px;
+}
